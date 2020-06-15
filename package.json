@@ -1,0 +1,19 @@
+{
+  "name": "wetube-clone",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyejeong-Byeon/wetube-clone.git"
+  },
+  "author": "Hyejeong",
+  "bugs": {
+    "url": "https://github.com/Hyejeong-Byeon/wetube-clone/issues"
+  },
+  "homepage": "https://github.com/Hyejeong-Byeon/wetube-clone#readme"
+}
