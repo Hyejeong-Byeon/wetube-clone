@@ -3,9 +3,20 @@ const app = express();
 
 const PORT = 4000;
 
-function handleListening(){
+function handleListening() {
     console.log(`Listening on:http://localhost:${PORT}`);
 }
- 
-app.listen(PORT,handleListening);
- 
+
+function handleHome(req, res) {
+    res.send("Hello from home");
+}
+
+function handleProfile(req, res) {
+    res.send("You are my profile");
+}
+
+app.get("/", handleHome);
+
+app.get("/profile", handleProfile);
+
+app.listen(PORT, handleListening);
